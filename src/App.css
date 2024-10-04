@@ -102,13 +102,6 @@ h5 {
   cursor: pointer;
 }
 
-.sticky-content {
-  position: sticky;
-  top: 0;
-  z-index: 1;
-  background-color: var(--background-color);
-}
-
 .jstify-content-between {
   justify-content: space-between;
 }
@@ -120,5 +113,14 @@ h5 {
 
   h2 {
     font-size: 24px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .sticky-content {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: var(--background-color);
   }
 }
