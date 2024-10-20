@@ -1,3 +1,5 @@
+To run ai-recipe-finder add Groq API key your env file.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
